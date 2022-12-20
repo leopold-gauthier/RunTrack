@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(0.21turn, #84DD63,#CBFF4D);
+}
+h1{
+    color: #545454;
+}
+h2{
+    color: #545454;
+}
+p{
+    color: #69747c;
+}
+ul{
+    color: #545454;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    align-items: baseline;
+
+}
+
+
+main{
+    font-family: 'Kanit', sans-serif;
+}
+
+#liste{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}

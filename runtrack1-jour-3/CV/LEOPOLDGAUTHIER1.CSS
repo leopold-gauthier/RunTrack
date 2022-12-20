@@ -1,0 +1,52 @@
+
+
+body{
+    margin: 0%;
+    border: 0%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+h1{
+    margin: 2%;
+}
+h2{
+    color:  rgb(71, 71, 255);
+    margin: 1%;
+}
+h3{
+    margin: 1%;
+
+}
+p{
+    margin: 3%;
+}
+
+.title{
+    align-items: center;
+}
+
+#insidemainpage{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+#outsidemainpage{
+    align-items: center;
+    background-color: rgb(71, 71, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+
+}
+

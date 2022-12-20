@@ -1,0 +1,51 @@
+body{
+    margin: 0%;
+    border: 0%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+h1{
+    color:  rgb(70, 29, 29);
+    margin: 2%;
+}
+h2{
+    color:  rgb(70, 29, 29);
+    margin: 1%;
+}
+h3{
+    margin: 1%;
+
+}
+p{
+    margin: 3%;
+}
+
+.title{
+    align-items: center;
+}
+
+#insidemainpage{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+#outsidemainpage{
+    color: aliceblue;
+    align-items: center;
+    background-color: rgb(70, 29, 29);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+
+}

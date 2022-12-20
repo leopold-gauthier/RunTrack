@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* ACCUEIL */
+
+body{
+    background-color: #f6f6f6
+}
+
+nav {
+    font-family:"Roboto Slab", Georgia, "Times New Roman", serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+}
+
+nav img{
+    width: 25vw;
+}
+nav a{
+    color: #0000009d;
+    text-decoration : none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+div{
+    border-radius: 1rem;
+}
+
+h2{
+    font-size: 40px;
+    color: #336699;
+    font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+    margin: 7%;
+}
+
+h3{
+font-size: 22px;
+color: #275fa0;
+}
+
+
+
+
+#firstpage{
+    font-family: "Roboto Regular", Helvetica, Arial, Lucida, sans-serif;
+    background-color: #336699;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#firstpage img{
+    display: block;
+    width: 50vw;
+}
+
+#info{
+    font-size: 25px;
+    margin: 5%;
+    background-color: #336699;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#info button{
+    margin: 5%;
+    background-color: #ff2063;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 100px;
+    border-style: none;
+
+}
+
+#secondpage{
+    flex-wrap: wrap;
+    font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-between;
+}
+
+.secondpage{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-around;
+    line-height: 27px;
+    align-items: center;
+    margin: 1%;
+    width: 30vw;
+    background-color: #ffffff;
+    align-content: center;
+}
+
+.secondpage p{
+    margin: 2%;
+}
+
+.secondpage button{
+    background-color: #ffca4b;
+    margin: 5%;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 100px;
+    border-style: none;
+}
+
+
+#thirdpage{
+    font-family: "Roboto Regular", Helvetica, Arial, Lucida, sans-serif;
+    color: #336699;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.thirdpage{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    width: 80vw;
+    background-color: #ffffff;
+}
+
+#thirdpage button{
+    font-size: 18px;
+    display: block;
+    background-color: #ffca4b;
+    margin: 5%;
+    width: 15%;
+    border-radius: 100px;
+    border-style: none;
+}
+
+#thirdpage img{
+    margin: 5%;
+    width: 8vw;
+}
+
+
+.consult{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.consult h3{
+    padding-right: 25%;
+}
+
+.consult p {
+
+ margin: 3%;
+}
+
+#support{
+    border-radius: 0rem;
+    font-size: 17px;
+    font-family: "Roboto Regular", Helvetica, Arial, Lucida, sans-serif;
+    text-decoration: none;
+    background-color: #313131;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#support img{
+    object-fit: contain;
+    width: 30%;
+}
+
+ul h4{
+    margin: 2%;
+    color: white;
+    font-style: oblique;
+}
+
+ul li{
+    font-size: 10px;
+    color: white;
+    list-style: none;
+}
+
+
+/* QUI NOUS SOMME */
+
+h5{
+    text-decoration: underline;
+    margin:4%;
+    font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+    font-size: 40px;
+}
+p{  
+    line-height: 27.2px;
+    margin: 5%;
+    font-family: "Roboto Regular", Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+}
+
+#Wwa{
+    display: flex;
+    flex-direction: column;
+
+}
+#infoWwa{
+    display: flex;
+    flex-direction: row;
+}
+
+.picturesociete{
+ margin: 2%;
+}
+
+#certificationWwa{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+#certificationWwa img{
+    width: 10vw;
+}
+
+#presentation{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.presentation{
+
+    margin:2%;
+}
+
+
+#presentation h4{
+ color: #336699;
+ font-size: 18px;
+ line-height: 18px;
+}
